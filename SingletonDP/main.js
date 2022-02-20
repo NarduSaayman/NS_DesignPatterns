@@ -48,15 +48,15 @@ Karazhan.closeLeyLine(); // Close ley line again
 document.querySelector('#app').innerHTML += `<h1> Database Example<h1>`;
 
 function DatabaseConnection(){
-  let DatabaseInstance = null; // Karazhan is the big mage tower
+  let DatabaseInstance = null;
 
-  // track how many instances of Karazhan exists
+  // track how many instances of the databse exists
   let count = 0
 
   function init(){
     console.log(`Opening connection #${count + 1}`);
     document.querySelector('#app').innerHTML += `<p>Opening connection #${count + 1}</p>`;
-    // now go and speak with Medivh about the horbile things befalling Azeroth
+    // now go and do databasy things
   }
 
   function createInstance(){
